@@ -360,6 +360,12 @@ window._MFN = [
     token: "5626a011-6e25-4da4-96b2-f8fd834504d4",
   },
   {
+    query: "#owner-country-dist-graph",
+    widget: "owner-country-dist",
+    locale: "en",
+    token: "3c629098-dcd6-48af-9111-d5673ffdf990",
+  },
+  {
     query: "#owner-holding-dist",
     widget: "owner-holding-dist",
     locale: "en",
