@@ -190,3 +190,7 @@
 rect {
   stroke: transparent;
 }
+
+#kpi-dashboard {
+  font-size: 16em;
+}
