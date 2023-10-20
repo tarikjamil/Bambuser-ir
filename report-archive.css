@@ -1,0 +1,161 @@
+.mfn-archive-item-type-release img {
+  content: url("https://uploads-ssl.webflow.com/61695e44568be6e20a47bfbb/633bf1ee0c8dbf6c7ad01fb8_Vector.svg") !important;
+  filter: contrast(200%) grayscale(100%);
+}
+
+.mfn-archive-item-type-report-pdf img {
+  content: url("https://uploads-ssl.webflow.com/61695e44568be6e20a47bfbb/633bf43762a73b2d9759214a_pdf.svg") !important;
+  filter: contrast(200%) grayscale(100%);
+}
+
+.mfn-archive-item-type-financial-data img {
+  content: url("https://uploads-ssl.webflow.com/61695e44568be6e20a47bfbb/63e4f03d59f280362f47fa06_excelAsset%202.svg") !important;
+  filter: contrast(200%) grayscale(100%);
+}
+
+.mfn-archive-item-type-presentation img {
+  content: url("https://uploads-ssl.webflow.com/61695e44568be6e20a47bfbb/633bf43762a73b2d9759214a_pdf.svg") !important;
+  filter: contrast(200%) grayscale(100%);
+}
+
+.mfn-archive-item-type-webcast img {
+  content: url("https://uploads-ssl.webflow.com/61695e44568be6e20a47bfbb/63e4f0f0fa79befd443a6355_movieAsset%203.svg") !important;
+  filter: contrast(200%) grayscale(100%);
+}
+
+.mfn-archive table {
+  width: 100%;
+}
+
+tr {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+}
+
+.mfn-archive-header {
+  padding-top: 24rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+  height: 86rem !important;
+  font-size: 48rem !important;
+  background-color: white !important;
+  letter-spacing: -0.03em;
+  color: black !important;
+  font-family: "Neue Haas Grotesk Display", sans-serif;
+  font-weight: 500 !important;
+}
+
+.mfn-archive-header-item-type {
+  font-size: 14rem !important;
+  font-family: "Neue Haas Grotesk text", sans-serif;
+  font-weight: 400 !important;
+  text-align: left !important;
+}
+
+.mfn-archive-event-heading {
+  padding-left: 0rem !important;
+  line-height: 1.25 !important;
+  font-size: 16rem !important;
+  color: black;
+}
+
+.mfn-archive-event-title {
+  font-size: 18rem !important;
+  line-height: 125% !important;
+}
+
+.mfn-archive-event-date {
+  font-size: 14rem !important;
+  line-height: 125% !important;
+}
+
+.mfn-archive-event-lang-en {
+  height: 80rem !important;
+  border-bottom-color: #00000020 !important;
+}
+
+.mfn-archive-item {
+  padding-left: 0rem !important;
+  font-size: 16rem !important;
+  color: black;
+  text-align: left !important;
+}
+
+.mfn-archive-item a {
+  width: 100%;
+  height: 48rem;
+  display: flex;
+  align-items: center;
+  border-radius: 4rem;
+  color: blue;
+}
+
+.mfn-archive-item a:hover img {
+  filter: contrast(100%) grayscale(0%);
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+
+.mfn-archive .mfn-archive-item img {
+  height: 32rem !important;
+  margin-left: 16rem;
+}
+
+.mfn-info,
+.mfn-options,
+.mfn-languages {
+  display: none;
+}
+
+.mfn-policy-text {
+  width: 100;
+  display: block;
+}
+
+.mfn-status-item {
+  font-size: 1em !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .mfn-archive-header {
+    font-size: 32rem !important;
+  }
+
+  .mfn-archive-header-item-type {
+    font-size: 14rem !important;
+  }
+
+  .mfn-archive-event-heading {
+    font-size: 12rem !important;
+    width: 150rem !important;
+  }
+
+  .mfn-archive-item {
+    font-size: 12rem !important;
+  }
+
+  .mfn-archive-event-title {
+    font-size: 16rem !important;
+  }
+
+  .mfn-archive-event-date {
+    font-size: 12rem !important;
+  }
+
+  .mfn-archive .mfn-archive-item img {
+    height: 24rem !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mfn-archive-event-title {
+    font-size: 14rem !important;
+  }
+
+  .mfn-archive-event-date {
+    font-size: 12rem !important;
+    width: 150rem !important;
+  }
+}

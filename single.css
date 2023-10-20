@@ -1,0 +1,76 @@
+/* -- Attachment thumbnails -- */
+
+.mfn-thumbnail {
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* PDF */
+.mfn-file-type-pdf {
+  background-image: url("../png/file-pdf.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 24px;
+}
+
+/* IMAGE */
+.mfn-file-type-image {
+  background-image: url("../png/file-image.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 24px;
+}
+
+/* REGULAR */
+.mfn-file-type-file {
+  background-image: url("../png/file-regular.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 24px;
+}
+
+.mfn-attachment:hover {
+  opacity: 0.8;
+}
+
+.mfn-attachment-text {
+  display: block;
+  top: -3px;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: -1px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 150px;
+  padding-left: 27px;
+}
+
+.mfn-attachment {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* .mfn-hide
+  This class should be set to display: none;
+  if the option show_attachments is 'true'
+*/
+.mfn-hide {
+  display: none;
+}
+
+/* May also be set to display: none if you instead want to show the original attachments */
+.mfn-attachments-container {
+  display: flex;
+}
+
+.mfn-body ol {
+  padding-left: 15px;
+  font-size: 15px;
+}
+.mfn-body ol[type="a"] {
+  padding-left: 40px;
+}

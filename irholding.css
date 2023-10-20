@@ -1,0 +1,39 @@
+td,
+th {
+  font-size: 14rem;
+  padding: 4rem;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+}
+
+table {
+  width: 100%;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: black;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: black;
+}
+
+.mfn-info,
+.mfn-options,
+.mfn-languages {
+  display: none;
+}
+
+.mfn-policy-text {
+  width: 100;
+  display: block;
+}
+
+@media screen and (max-width: 992px) {
+  td,
+  th {
+    font-size: 11rem;
+  }
+}
