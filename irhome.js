@@ -46,7 +46,7 @@ window._MFN = [
     show_tags: [
       { tag: ":regulatory" },
       { tag: "sub:report:interim" },
-      { tag: "sub:report:annual" }
+      { tag: "sub:report:annual" },
     ],
 
     // Show attachments
@@ -69,12 +69,12 @@ window._MFN = [
     l10n: {
       Search: {
         sv: "Sök",
-        en: "Search"
+        en: "Search",
       },
       "Search placeholder": {
         sv: "Sök",
-        en: "Search"
-      }
+        en: "Search",
+      },
     },
 
     // Show additional filter info, default: false
@@ -102,8 +102,8 @@ window._MFN = [
         month: "short", // or 'long', 'short'
         year: "numeric", // or '2-digit'
         day: "numeric", // or '2-digit'
-        timeZone: "Europe/Stockholm" // eg. 'America/New_York'
-      }
+        timeZone: "Europe/Stockholm", // eg. 'America/New_York'
+      },
     },
 
     // If you want to implement your own custom date formatter
@@ -124,7 +124,7 @@ window._MFN = [
       var t = div.querySelector(".mfn-title");
       div.firstElementChild.prepend(d);
       return div.innerHTML;
-    }
+    },
   },
   {
     // The selector of the element where the content of the news
@@ -164,7 +164,7 @@ window._MFN = [
     show_tags: [
       { tag: ":regulatory" },
       { tag: "sub:report:interim" },
-      { tag: "sub:report:annual" }
+      { tag: "sub:report:annual" },
     ],
 
     // Show attachments
@@ -184,14 +184,14 @@ window._MFN = [
         // if true an Ajax search is added to the search bar
         live_search: true,
         // the debounce time for the ajax search if enabled
-        live_search_delay: 300
+        live_search_delay: 300,
       },
       // 'default' or [{tag: ':regulatory'},
       // {tag: 'sub:report:interim'}] etc.
       { item: "tags", tags: "default" },
       { item: "year", start: 2010 },
       { item: "lang", languages: ["sv", "en"] },
-      { item: "clear" }
+      { item: "clear" },
     ],
 
     // Filter feed by the following tags
@@ -205,12 +205,12 @@ window._MFN = [
     l10n: {
       Search: {
         sv: "Sök",
-        en: "Search"
+        en: "Search",
       },
       "Search placeholder": {
         sv: "Sök",
-        en: "Search"
-      }
+        en: "Search",
+      },
     },
 
     // Show additional filter info, default: false
@@ -219,8 +219,8 @@ window._MFN = [
     show_notfound: false,
     use_proxied_attachment_urls: true,
 
-    show_date: true
-  }
+    show_date: true,
+  },
 ];
 
 (function (widgets) {
@@ -241,7 +241,7 @@ window._MFN = [
     },
     push: function (w) {
       window._MF.data.push(w);
-    }
+    },
   };
   window._MF.push(widgets);
 })([
@@ -249,14 +249,14 @@ window._MFN = [
     query: "#mfn-owner-list",
     widget: "wrapper-v2",
     locale: "en",
-    token: "d5be8809-508d-4dfd-8ae1-ecd554aa75f2"
+    token: "d5be8809-508d-4dfd-8ae1-ecd554aa75f2",
   },
   {
     query: "#container3",
     widget: "subscribe-v2",
     locale: "en",
-    token: "8d99f9c2-6eed-4044-8ba0-64d68be1eb66"
-  }
+    token: "8d99f9c2-6eed-4044-8ba0-64d68be1eb66",
+  },
 ]);
 
 (function (widgets) {
@@ -277,7 +277,7 @@ window._MFN = [
     },
     push: function (w) {
       window._MF.data.push(w);
-    }
+    },
   };
   window._MF.push(widgets);
 })([
@@ -285,50 +285,104 @@ window._MFN = [
     query: "#inside-this-element",
     widget: "kpi-graph",
     locale: "en",
-    token: "891572f8-5405-4bb5-8129-9601dc724ac3"
+    token: "891572f8-5405-4bb5-8129-9601dc724ac3",
   },
   {
     query: "#inside-this-element2",
     widget: "kpi-graph",
     locale: "en",
-    token: "891572f8-5405-4bb5-8129-9601dc724ac3"
+    token: "891572f8-5405-4bb5-8129-9601dc724ac3",
   },
   {
     query: "#inside-this-element3",
     widget: "kpi-graph",
     locale: "en",
-    token: "acdaf1f4-8d26-4e6b-8b2d-f7745efd8aef"
+    token: "acdaf1f4-8d26-4e6b-8b2d-f7745efd8aef",
   },
   {
     query: "#inside-this-element4",
     widget: "kpi-graph",
     locale: "en",
-    token: "4dd12e67-3c34-4b74-80b1-eebf49e53415"
+    token: "4dd12e67-3c34-4b74-80b1-eebf49e53415",
   },
   {
     query: "#inside-this-element5",
     widget: "kpi-graph",
     locale: "en",
-    token: "bc4aa523-d7d0-46f3-8c7a-92df795676e8"
+    token: "bc4aa523-d7d0-46f3-8c7a-92df795676e8",
   },
   {
     query: "#inside-this-element6",
     widget: "kpi-graph",
     locale: "en",
-    token: "55d5ac15-5472-40eb-805e-6877e1c79f2e"
+    token: "55d5ac15-5472-40eb-805e-6877e1c79f2e",
   },
   {
     query: "#inside-this-element7",
     widget: "kpi-table",
     locale: "en",
-    token: "81f0e082-b2dd-4a17-8689-92ef7f6b72e6"
+    token: "81f0e082-b2dd-4a17-8689-92ef7f6b72e6",
   },
   {
     query: "#mfn-owner-list",
     widget: "wrapper-v2",
     locale: "en",
-    token: "d5be8809-508d-4dfd-8ae1-ecd554aa75f2"
-  }
+    token: "d5be8809-508d-4dfd-8ae1-ecd554aa75f2",
+  },
+  {
+    query: "#insider-positions",
+    widget: "insider-positions",
+    locale: "en",
+    token: "265d97ab-fe37-43f6-a2b6-25773e6fa913",
+  },
+  {
+    query: "#insider-transactions",
+    widget: "insider-transactions",
+    locale: "en",
+    token: "1da64234-1fcf-4569-8031-a43ff678195a",
+  },
+  {
+    query: "#kpi-dashboard",
+    widget: "kpi-dashboard",
+    locale: "en",
+    token: "1306eb93-4fa3-48a6-8d51-b5d2d3e09ff8",
+  },
+  {
+    query: "#owner-concentration",
+    widget: "owner-concentration",
+    locale: "en",
+    token: "35fd1280-6023-4782-a655-332d09809b75",
+  },
+  {
+    query: "#owner-country-dist",
+    widget: "owner-country-dist",
+    locale: "en",
+    token: "5626a011-6e25-4da4-96b2-f8fd834504d4",
+  },
+  {
+    query: "#owner-holding-dist",
+    widget: "owner-holding-dist",
+    locale: "en",
+    token: "35c6480e-b5c5-4b6f-a5e0-6fca7f53a078",
+  },
+  {
+    query: "#owner-holding-dist-graph",
+    widget: "owner-holding-dist",
+    locale: "en",
+    token: "7bbcee7b-2f71-43ae-b270-fb45a6e96116",
+  },
+  {
+    query: "#owner-type-dist",
+    widget: "owner-type-dist",
+    locale: "en",
+    token: "c680fb15-e22d-43a7-9638-d65c181279a3",
+  },
+  {
+    query: "#owner-type-dist-graph",
+    widget: "owner-type-dist",
+    locale: "en",
+    token: "0199a604-4519-4d3c-b79e-be4e71213670",
+  },
 ]);
 
 (function (widgets) {
@@ -349,7 +403,7 @@ window._MFN = [
     },
     push: function (w) {
       window._MF.data.push(w);
-    }
+    },
   };
   window._MF.push(widgets);
 })([
@@ -357,14 +411,14 @@ window._MFN = [
     query: "#inside-this-element",
     widget: "archive",
     locale: "sv",
-    token: "<TOKEN>"
+    token: "<TOKEN>",
   },
   {
     query: "#report",
     widget: "archive",
     locale: "en",
-    token: "bd58a440-e313-420b-a8e1-73d8893969ca"
-  }
+    token: "bd58a440-e313-420b-a8e1-73d8893969ca",
+  },
 ]);
 
 $(".mfn-archive tr .mfn-archive-item.mfn-archive-item-type-release img").attr(
