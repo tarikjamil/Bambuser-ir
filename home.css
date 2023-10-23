@@ -251,7 +251,7 @@ rect {
   }
 
   .mf-kpi-dashboard {
-    display: grid;
+    display: grid !important;
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -262,7 +262,7 @@ rect {
   }
 
   .mf-kpi-dashboard {
-    display: grid;
+    display: grid !important;
     grid-template-columns: 1fr;
   }
 }
