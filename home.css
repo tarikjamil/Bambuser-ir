@@ -263,7 +263,7 @@ rect {
 
   .mf-kpi-dashboard {
     display: grid !important;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .mf-kpi-dashboard-name,
