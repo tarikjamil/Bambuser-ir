@@ -203,6 +203,7 @@ rect {
 
 .mf-kpi-dashboard-item {
   flex-grow: 1;
+  position: relative;
 }
 
 .mf-kpi-dashboard-name {
