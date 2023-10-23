@@ -191,6 +191,8 @@ rect {
   stroke: transparent;
 }
 
+/* KPI DASHBOARD */
+
 #kpi-dashboard {
   font-size: 16em;
 }
@@ -212,10 +214,32 @@ rect {
   border-bottom-style: solid;
 }
 
-.mf-kpi-dashboard-value,
+.mf-kpi-dashboard-value {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Neue Haas Grotesk Display;
+  font-size: 84rem;
+  line-height: 0.96;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+
 .mf-kpi-dashboard-label {
   padding: 16rem;
   border-bottom-width: 1px;
   border-bottom-color: #f0f0f5;
   border-bottom-style: solid;
+}
+
+@media only screen and (max-width: 991px) {
+  .mf-kpi-dashboard-value {
+    font-size: 40rem;
+    line-height: 1;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mf-kpi-dashboard-value {
+    font-size: 28rem;
+  }
 }
