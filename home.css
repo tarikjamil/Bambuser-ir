@@ -212,12 +212,12 @@ rect {
 }
 
 .mf-kpi-dashboard-name {
-  font-weight: 500;
+  font-weight: normal;
   padding: 16rem;
   padding-left: 0rem;
   padding-top: 32rem;
   border-bottom-width: 1px;
-  border-bottom-color: #f0f0f5;
+  border-bottom-color: #f0f0f540;
   border-bottom-style: solid;
 }
 
