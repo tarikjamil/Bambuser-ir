@@ -194,3 +194,7 @@ rect {
 #kpi-dashboard {
   font-size: 16em;
 }
+
+.mf-kpi-dashboard-name {
+  font-weight: 500;
+}
