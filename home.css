@@ -265,4 +265,16 @@ rect {
     display: grid !important;
     grid-template-columns: 1fr;
   }
+
+  .mf-kpi-dashboard-name,
+  .mf-kpi-dashboard-label {
+    font-weight: normal;
+    padding: 8rem;
+    padding-left: 0rem;
+    padding-top: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #f0f0f540;
+    border-bottom-style: solid;
+    font-size: 12rem;
+  }
 }
