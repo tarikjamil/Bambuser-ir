@@ -206,6 +206,7 @@ rect {
 .mf-kpi-dashboard-name {
   font-weight: 500;
   padding: 16rem;
+  padding-top: 32rem;
   border-bottom-width: 1px;
   border-bottom-color: #f0f0f5;
   border-bottom-style: solid;
