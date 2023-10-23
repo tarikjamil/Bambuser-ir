@@ -249,10 +249,20 @@ rect {
     font-size: 40rem;
     line-height: 1;
   }
+
+  .mf-kpi-dashboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media only screen and (max-width: 767px) {
   .mf-kpi-dashboard-value {
     font-size: 28rem;
+  }
+
+  .mf-kpi-dashboard {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
