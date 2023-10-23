@@ -226,6 +226,10 @@ rect {
   letter-spacing: -0.03em;
 }
 
+.mf-kpi-dashboard-unit {
+  font-size: 24rem;
+}
+
 .mf-kpi-dashboard-label {
   padding: 16rem;
   border-bottom-width: 1px;
