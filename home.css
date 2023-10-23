@@ -207,6 +207,10 @@ rect {
   position: relative;
 }
 
+.mf-kpi-dashboard-item div {
+  text-align: left;
+}
+
 .mf-kpi-dashboard-name {
   font-weight: 500;
   padding: 16rem;
