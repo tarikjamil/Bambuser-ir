@@ -228,6 +228,7 @@ rect {
   line-height: 0.96;
   font-weight: 500;
   letter-spacing: -0.03em;
+  padding: 16rem;
 }
 
 .mf-kpi-dashboard-unit {
@@ -237,9 +238,6 @@ rect {
 
 .mf-kpi-dashboard-label {
   padding: 16rem;
-  border-bottom-width: 1px;
-  border-bottom-color: #f0f0f5;
-  border-bottom-style: solid;
 }
 
 @media only screen and (max-width: 991px) {
