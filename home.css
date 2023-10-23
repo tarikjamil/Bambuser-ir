@@ -195,6 +195,22 @@ rect {
   font-size: 16em;
 }
 
+.mf-kpi-dashboard {
+  justify-content: flex-start;
+}
+
 .mf-kpi-dashboard-name {
   font-weight: 500;
+  padding: 16rem;
+  border-bottom-width: 1px;
+  border-bottom-color: grey;
+  border-bottom-style: solid;
+}
+
+.mf-kpi-dashboard-value,
+.mf-kpi-dashboard-label {
+  padding: 16rem;
+  border-bottom-width: 1px;
+  border-bottom-color: grey;
+  border-bottom-style: solid;
 }
