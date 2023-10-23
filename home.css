@@ -203,7 +203,7 @@ rect {
   font-weight: 500;
   padding: 16rem;
   border-bottom-width: 1px;
-  border-bottom-color: grey;
+  border-bottom-color: #f0f0f5;
   border-bottom-style: solid;
 }
 
@@ -211,6 +211,6 @@ rect {
 .mf-kpi-dashboard-label {
   padding: 16rem;
   border-bottom-width: 1px;
-  border-bottom-color: grey;
+  border-bottom-color: #f0f0f5;
   border-bottom-style: solid;
 }
